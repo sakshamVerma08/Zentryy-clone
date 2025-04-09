@@ -33,5 +33,14 @@ export default {
     },
   },
 
-  plugins: [],
+  plugins: [
+    plugin(function ({ addUtilities }) {
+      addUtilities({
+        ".special-font": {
+          fontFamily: "Zentry",
+          fontFeatureSettings: '"ss01" on',
+        },
+      });
+    }),
+  ],
 };

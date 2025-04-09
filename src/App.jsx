@@ -1,15 +1,11 @@
 import React from "react";
+import Hero from "./components/Hero";
 
 const App = () => {
   return (
-    <div>
-      <h1 className="">Awwards Project</h1>
-      <p className="text-2xl text-violet-300">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut eius
-        recusandae animi rem. Totam amet harum autem voluptate architecto!
-        Consequatur, fugit. .
-      </p>
-    </div>
+    <main className="relative min-h-screen w-screen overflow-x-hidden">
+      <Hero />
+    </main>
   );
 };
 
