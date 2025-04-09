@@ -1,0 +1,26 @@
+@import "tailwindcss/preflight";
+@tailwind utilities;
+@import "tailwindcss";
+
+body {
+  width: 100dvw;
+  font-family: "General Sans", sans-serif;
+  background-color: #dfdff0;
+  overflow-x: hidden;
+}
+
+@layer base {
+  @font-face {
+    font-family: "general.woff2";
+    src: url("/fonts/general.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: "robert-medium";
+    src: url("/fonts/robert-medium.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "robert-regular";
+    src: url("fonts/robert-regular.woff2") format("woff2");
+  }
+}
